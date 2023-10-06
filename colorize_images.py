@@ -11,6 +11,8 @@
 # https://github.com/richzhang/colorization/tree/caffe/models
 # https://github.com/richzhang/colorization/blob/caffe/resources/pts_in_hull.npy
 
+# Download the models and save them to the model folder in this repo
+
 # Importing the modules.
 
 import numpy as np
@@ -19,7 +21,7 @@ import os
 
 # Paths
 
-wk_pth = '/home/george/george/coding_place/python/projects/colorize_images'
+wk_pth = 'colorize_images'
 prototxt_pth = wk_pth + '/model/colorization_deploy_v2.prototxt'
 model_pth = wk_pth + '/model/colorization_release_v2.caffemodel'
 kernal_pth = wk_pth + '/model/pts_in_hull.npy'
