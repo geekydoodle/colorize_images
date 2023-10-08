@@ -14,6 +14,20 @@ git clone https://github.com/geekydoodle/colorize_images.git
 ```
 cd colorize_images
 ```
+<div align='center'><h2>MODELS</h2></div>
+
+https://github.com/richzhang/colorization/blob/caffe/colorization/models/colorization_deploy_v2.prototxt
+https://github.com/richzhang/colorization/blob/caffe/resources/pts_in_hull.npy
+
+<p>Download the models and save them to the model folder in this repo ☝️</p>
+
+<p>and run these commands</p>
+
+```
+cd model
+wget http://eecs.berkeley.edu/~rich.zhang/projects/2016_colorization/files/demo_v2/colorization_release_v2.caffemodel
+```
+<p>Same with this ☝️</p>
 
 <h2>2. Make a venv</h2>
 
